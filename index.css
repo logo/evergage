@@ -1,0 +1,22 @@
+
+/**
+ * Evergage
+ */
+
+.logo[data-logo="Evergage"] {
+  width: 4.650645268em;
+  /* (562.17/120.88) * (1) - 0 */
+}
+
+.logo[data-logo="Evergage"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0;
+}
+
+.logo[data-logo="Evergage"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Evergage"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
